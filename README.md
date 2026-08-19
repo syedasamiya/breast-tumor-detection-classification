@@ -18,7 +18,13 @@ Full pipeline: tumor segmentation → detection → benign/malignant classificat
 | Classification F1-score | 0.844 |
 | Pipeline Tumor Detection Rate | 94.8% |
 
+## Sample Prediction
+![Sample Prediction](images/sample_prediction.png)
+
+## Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
 ## How to Run
-1. Open `notebook.ipynb` in Google Colab
+1. Open `busi_unet_resnet_pipeline.ipynb` in Google Colab
 2. Add your own Kaggle API token
 3. Run cells top to bottom (GPU runtime recommended)
